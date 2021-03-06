@@ -7614,6 +7614,53 @@
     ],
     "handlebars": [
       {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:O/RC:C",
+        "alternativeIds": [],
+        "creationTime": "2021-01-08T17:25:21.189033Z",
+        "credit": [
+          "Francois Lajeunesse-Robert"
+        ],
+        "cvssScore": 5.6,
+        "disclosureTime": "2021-01-08T17:08:45Z",
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "4.7.7"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-HANDLEBARS-1056767",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-94"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-15T11:50:52.210306Z",
+        "moduleName": "handlebars",
+        "packageManager": "npm",
+        "packageName": "handlebars",
+        "patches": [],
+        "publicationTime": "2021-02-15T11:50:51Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/handlebars-lang/handlebars.js/commit/b6d3de7123eebba603e321f04afdbae608e8fea8"
+          },
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/handlebars-lang/handlebars.js/commit/f0589701698268578199be25285b2ebea1c1e427"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.7.7"
+          ]
+        },
+        "severity": "medium",
+        "title": "Remote Code Execution (RCE)"
+      },
+      {
         "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:P/RL:O/RC:C",
         "alternativeIds": [],
         "creationTime": "2020-04-28T14:26:34.538485Z",
@@ -8799,6 +8846,49 @@
       }
     ],
     "i18next": [
+      {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "alternativeIds": [],
+        "creationTime": "2021-01-29T13:29:26.107901Z",
+        "credit": [
+          "Adriano Raiano"
+        ],
+        "cvssScore": 7.5,
+        "disclosureTime": "2021-01-29T13:26:30Z",
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "19.8.5"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-I18NEXT-1065979",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-1321"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-17T17:34:25.876632Z",
+        "moduleName": "i18next",
+        "packageManager": "npm",
+        "packageName": "i18next",
+        "patches": [],
+        "publicationTime": "2021-02-17T17:34:25.188395Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/i18next/i18next/commit/932f5f662893376254d826e9b01dc4e4c0cd91c0"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<19.8.5"
+          ]
+        },
+        "severity": "high",
+        "title": "Prototype Pollution"
+      },
       {
         "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N/E:P/RL:O/RC:C",
         "alternativeIds": [],
@@ -11835,6 +11925,104 @@
     ],
     "lodash": [
       {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C",
+        "alternativeIds": [],
+        "creationTime": "2020-11-17T14:07:17.048472Z",
+        "credit": [
+          "Marc Hassan"
+        ],
+        "cvssScore": 7.2,
+        "disclosureTime": "2020-11-17T13:02:10Z",
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "4.17.21"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-LODASH-1040724",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-23337"
+          ],
+          "CWE": [
+            "CWE-78"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-22T09:58:04.543992Z",
+        "moduleName": "lodash",
+        "packageManager": "npm",
+        "packageName": "lodash",
+        "patches": [],
+        "publicationTime": "2021-02-15T11:50:50Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c"
+          },
+          {
+            "title": "Vulnerable Code",
+            "url": "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.17.21"
+          ]
+        },
+        "severity": "high",
+        "title": "Command Injection"
+      },
+      {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:P",
+        "alternativeIds": [],
+        "creationTime": "2020-10-16T16:48:40.985673Z",
+        "credit": [
+          "Liyuan Chen"
+        ],
+        "cvssScore": 5.3,
+        "disclosureTime": "2020-10-16T16:47:34Z",
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "4.17.21"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-LODASH-1018905",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-28500"
+          ],
+          "CWE": [
+            "CWE-400"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-22T09:58:41.562106Z",
+        "moduleName": "lodash",
+        "packageManager": "npm",
+        "packageName": "lodash",
+        "patches": [],
+        "publicationTime": "2021-02-15T11:50:49Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a"
+          },
+          {
+            "title": "GitHub Fix PR",
+            "url": "https://github.com/lodash/lodash/pull/5065"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<4.17.21"
+          ]
+        },
+        "severity": "medium",
+        "title": "Regular Expression Denial of Service (ReDoS)"
+      },
+      {
         "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P/RL:O/RC:C",
         "alternativeIds": [],
         "creationTime": "2020-08-21T12:52:58.443440Z",
@@ -13010,6 +13198,9 @@
           ],
           "GHSA": [
             "GHSA-4r62-v4vq-hr96"
+          ],
+          "NSP": [
+            1623
           ]
         },
         "language": "js",
@@ -13018,7 +13209,7 @@
         "packageManager": "npm",
         "packageName": "marked",
         "patches": [],
-        "publicationTime": "2021-02-09T16:34:47.531803Z",
+        "publicationTime": "2021-02-09T16:34:47Z",
         "references": [
           {
             "title": "GitHub Commit",
@@ -14399,6 +14590,55 @@
       }
     ],
     "merge": [
+      {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:P",
+        "alternativeIds": [],
+        "creationTime": "2020-11-22T15:18:43.156000Z",
+        "credit": [
+          "Alessio Della Libera (d3lla)"
+        ],
+        "cvssScore": 7.3,
+        "disclosureTime": "2020-11-22T15:13:53Z",
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "2.1.1"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-MERGE-1042987",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-28499"
+          ],
+          "CWE": [
+            "CWE-400"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-23T16:42:39.630890Z",
+        "moduleName": "merge",
+        "packageManager": "npm",
+        "packageName": "merge",
+        "patches": [],
+        "publicationTime": "2021-02-23T16:42:39.612843Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/yeikos/js.merge/commit/7b0ddc2701d813f2ba289b32d6a4b9d4cc235fb4"
+          },
+          {
+            "title": "Vulnerable Code",
+            "url": "https://github.com/yeikos/js.merge/blob/master/src/index.ts%23L64"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<2.1.1"
+          ]
+        },
+        "severity": "high",
+        "title": "Prototype Pollution"
+      },
       {
         "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
         "alternativeIds": [],
@@ -17361,6 +17601,53 @@
       }
     ],
     "nunjucks": [
+      {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O",
+        "alternativeIds": [],
+        "creationTime": "2021-02-25T16:01:11.125848Z",
+        "credit": [
+          "CattChen (@ChenKS12138)"
+        ],
+        "cvssScore": 7.5,
+        "disclosureTime": "2021-02-25T15:59:26Z",
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "3.2.3"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-NUNJUCKS-1079083",
+        "identifiers": {
+          "CVE": [],
+          "CWE": [
+            "CWE-1321"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-25T16:22:24.164344Z",
+        "moduleName": "nunjucks",
+        "packageManager": "npm",
+        "packageName": "nunjucks",
+        "patches": [],
+        "publicationTime": "2021-02-25T16:22:24.141432Z",
+        "references": [
+          {
+            "title": "GitHub Issue",
+            "url": "https://github.com/mozilla/nunjucks/issues/1331"
+          },
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/mozilla/nunjucks/pull/1330"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<3.2.3"
+          ]
+        },
+        "severity": "high",
+        "title": "Prototype Pollution"
+      },
       {
         "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N",
         "alternativeIds": [
@@ -20993,9 +21280,7 @@
         "cvssScore": 6.5,
         "disclosureTime": "2013-01-07T22:00:00Z",
         "exploit": "Not Defined",
-        "fixedIn": [
-          "3.3.0"
-        ],
+        "fixedIn": [],
         "functions": [],
         "functions_new": [],
         "id": "npm:select2:20130108",
@@ -21009,12 +21294,12 @@
           ]
         },
         "language": "js",
-        "modificationTime": "2019-12-02T14:39:56.826375Z",
+        "modificationTime": "2021-02-28T15:58:28.490130Z",
         "moduleName": "select2",
         "packageManager": "npm",
         "packageName": "select2",
         "patches": [],
-        "publicationTime": "2017-03-13T08:00:22.725000Z",
+        "publicationTime": "2017-03-13T08:00:22Z",
         "references": [
           {
             "title": "GitHub Commit",
@@ -21039,7 +21324,7 @@
         ],
         "semver": {
           "vulnerable": [
-            ">=1.0.0 <3.3.0"
+            "<0.0.0"
           ]
         },
         "severity": "medium",
@@ -22510,6 +22795,10 @@
         "publicationTime": "2019-10-11T13:21:30Z",
         "references": [
           {
+            "title": "GitHub Commit #2",
+            "url": "https://github.com/springfox/springfox/commit/26f72f0d16b166e12c20255a4ee907dc10685cf8%23diff-97232cc54495752f2b1fbafb152d5d04e19e8e4b3ede08c67e1966233c9a19e1"
+          },
+          {
             "title": "GitHub PR",
             "url": "https://github.com/swagger-api/swagger-ui/pull/5616"
           },
@@ -23311,7 +23600,7 @@
         "packageManager": "npm",
         "packageName": "three",
         "patches": [],
-        "publicationTime": "2021-01-29T16:01:22.719492Z",
+        "publicationTime": "2021-01-29T16:01:22Z",
         "references": [
           {
             "title": "GitHub Commit",
@@ -23340,9 +23629,7 @@
         "cvssScore": 5.3,
         "disclosureTime": "2021-01-24T14:11:26Z",
         "exploit": "Not Defined",
-        "fixedIn": [
-          "0.125.0"
-        ],
+        "fixedIn": [],
         "functions": [],
         "functions_new": [],
         "id": "SNYK-JS-THREE-1064566",
@@ -23353,12 +23640,12 @@
           ]
         },
         "language": "js",
-        "modificationTime": "2021-02-11T16:48:58.299784Z",
+        "modificationTime": "2021-02-18T11:44:09.276129Z",
         "moduleName": "three",
         "packageManager": "npm",
         "packageName": "three",
         "patches": [],
-        "publicationTime": "2021-02-11T16:48:58.273013Z",
+        "publicationTime": "2021-02-11T16:48:58Z",
         "references": [
           {
             "title": "GitHub Issue",
@@ -23371,7 +23658,7 @@
         ],
         "semver": {
           "vulnerable": [
-            "<0.125.0"
+            "<0.0.0"
           ]
         },
         "severity": "medium",
@@ -24601,6 +24888,55 @@
     ],
     "url-parse": [
       {
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "alternativeIds": [],
+        "creationTime": "2021-02-22T08:43:10.670486Z",
+        "credit": [
+          "Unknown"
+        ],
+        "cvssScore": 5.3,
+        "disclosureTime": "2021-02-22T08:42:02Z",
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.5.0"
+        ],
+        "functions": [],
+        "functions_new": [],
+        "id": "SNYK-JS-URLPARSE-1078283",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-27515"
+          ],
+          "CWE": [
+            "CWE-20"
+          ]
+        },
+        "language": "js",
+        "modificationTime": "2021-02-22T15:56:01.541988Z",
+        "moduleName": "url-parse",
+        "packageManager": "npm",
+        "packageName": "url-parse",
+        "patches": [],
+        "publicationTime": "2021-02-22T15:56:01.294929Z",
+        "references": [
+          {
+            "title": "GitHub Commit",
+            "url": "https://github.com/unshiftio/url-parse/commit/d1e7e8822f26e8a49794b757123b51386325b2b0"
+          },
+          {
+            "title": "GitHub PR",
+            "url": "https://github.com/unshiftio/url-parse/pull/197"
+          }
+        ],
+        "semver": {
+          "vulnerable": [
+            "<1.5.0"
+          ]
+        },
+        "severity": "medium",
+        "title": "Improper Input Validation"
+      },
+      {
         "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C",
         "alternativeIds": [],
         "creationTime": "2020-01-27T10:37:31.297521Z",
@@ -24791,7 +25127,7 @@
           ]
         },
         "language": "js",
-        "modificationTime": "2019-05-23T12:34:55.461665Z",
+        "modificationTime": "2021-02-26T17:50:29.225185Z",
         "moduleName": "useragent",
         "packageManager": "npm",
         "packageName": "useragent",
